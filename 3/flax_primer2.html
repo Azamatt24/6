@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.container{
+width:100%;
+max-width:1200px;
+margin-right:15px;
+}
+.row{
+display:flex;
+flex-wrap: wrap;
+flex-direction:row;
+}
+.col_article,
+.col_aside{
+flex: 0 0 100%;
+max-width:100%;
+}
+.col_article{
+flex: 0 0 66.666667%;
+max-width: 66.666667%;
+}
+.col_aside{
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
+}
+header{
+background-color:#6f4e37;
+width: 100%;
+height: 50px;
+color: #d9bca0;
+}
+main{
+
+
+font-size: 10px;
+}
+footer{
+color: #d9bca0;
+background-color:#6f4e37;;
+}
+article{
+    display: flex;
+background-color:#e2d0c3;
+height: 50vh;
+}
+.page-content {
+    width: 185px;
+    height: 190px;
+    background: #ebdfd6;
+    margin-left: 20px;
+    margin: auto;
+}
+aside{
+    display: flex;
+background-color:#d1b5a1;
+flex-direction: column;
+}
+aside div {
+    background-color: #ebdfd6;
+    border: 1px solid orange;
+    margin-top: 10px;
+    margin: auto;
+    padding: 15px;
+}
+</style>
+<meta charset="utf-8">
+</head>
+<body>
+ <header class="container">
+ Бизнес-информатика
+ </header>
+ <main class="container">
+ <div class="row">
+ <article class="col_article">
+    <div class="page-content">
+ <h3>Основная часть би</h3>
+ <p>Бизнес-информатика – один из новейших научных подходов к 
+    построению и применению систем информации и коммуникации в 
+    бизнес-процессах. Это направление построено на стыке нескольких 
+    научных дисциплин: информатики, экономики и менеджмента.</p></div>
+    <div class="page-content">  <h3>почему бизнес-информатика</h3><p> Бизнес-информатика» - специальность XXI-го века, она 
+    предоставляет широкие возможности в выборе сферы деятельности. 
+    Выпускник по направлению «Бизнес-информатика» – это 
+    эрудированный специалист широкого профиля, получивший 
+    фундаментальные знания в области информатики и 
+    профессиональные знания в области экономики, менеджмента и 
+    маркетинга.</p></div>
+   
+ </article >
+ <aside class="col_aside">
+
+ <p>Выпускники направления «Бизнес-информатика» могут работать </p>
+   <div> менеджерами по поддержке информационных систем, </div>
+<div> программистами,</div><div> бизнес-аналитиками, </div><div>начальниками 
+    информационных управлений и отделов (на предприятиях, в банках, 
+    налоговых инспекциях, страховых организациях и т.д.), </div>
+<div> специалистами в области информационных технологий, </div>
+<div>  администраторами баз данных,</div> <div>преподавателями, </div><div>системными 
+    
+    администраторами.</div>
+ </aside>
+ </div>
+ </main>
+ <footer class="container">
+ &copy2022
+ </footer>
+</body>
+</html>
